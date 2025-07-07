@@ -30,7 +30,7 @@ pipeline {
 
   post {
     success {
-      echo "✅ Deployment succeeded. Access app via http://<agent-ip>:80"
+      echo "✅ Deployment succeeded. Access app via http://192.168.128.172:80"
     }
     failure {
       echo "❌ Deployment failed. Check Jenkins logs."
